@@ -47,6 +47,9 @@ dependencies {
 
     compile('com.h2database:h2')    // 인메모리 관계형 데이터베이스, 테스트 용도로 많이 사용
 
+    // 머스테치 스타터 의존성
+    compile('org.springframework.boot:spring-boot-starter-mustache')
+
     //testImplementation('org.springframework.boot:spring-boot-starter-test')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
