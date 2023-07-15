@@ -52,6 +52,9 @@ dependencies {
 
     //testImplementation('org.springframework.boot:spring-boot-starter-test')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    // 코드 실시간 반영 관련
+    //implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.3.4.RELEASE'
 }
 
 // lombok 설정

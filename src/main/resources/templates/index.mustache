@@ -14,6 +14,7 @@
             <tr>
                 <th>게시글번호</th>
                 <th>제목</th>
+                <th>내용</th>
                 <th>작성자</th>
                 <th>최종수정일</th>
             </tr>
@@ -22,7 +23,8 @@
             {{#posts}}  <!-- posts라는 List를 순회 (Java의 for문과 동일) -->
                 <tr>
                     <td>{{id}}</td> <!-- List에서 뽑아낸 객체의 필드 -->
-                    <td>{{title}}</td>
+                    <td><a href="/posts/update/{{id}}">{{title}}</a></td>
+                    <td>{{content}}</td>
                     <td>{{author}}</td>
                     <td>{{modifiedDate}}</td>
                 </tr>
